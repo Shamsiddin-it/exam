@@ -100,11 +100,12 @@
 
 
 # 10
-# mylist=[i for i in input().split()]
+#mylist=[i for i in input().split()]
 # new={
 #     "int":[],
 #     "str":[],
-#     "bool":[]
+#     "bool":[],
+#     "float":[]
 # }
 # for i in mylist:
 #     if i.isdigit():
@@ -116,8 +117,13 @@
 #             new["bool"].append(True)
 #         else:
 #             new["bool"].append(False)
-# print(new)
+#     else:
+#         try:
+#             new["float"].append(float(i))
+#         except ValueError:
+#             pass
 
+# print(new)
 
 
 
